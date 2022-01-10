@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!-- Fix for making the media queries work on mobile devices -->
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Reset styles -->
+    <link rel="stylesheet" href="./reset.css">
+
+    <!-- Import bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Local site styles -->
+    <link rel="stylesheet" href="./Index.css">
+
+    <title>Colmar Academy</title>
+    <link rel="icon" href="./favicon.ico">
+</head>
+<body>
+	
+	  <!-- Header -->
+    <header class="container" id="header">
+
+      <!-- Desktop layout  -->
+      <nav class="navbar navbar-default bgWhite" role="navigation">
+
+        <!-- Desktop navbar -->
+        <div class="navbar-collapse collapse container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <div class="container-fluid text-uppercase" id="logo">
+                <img src="./images/ic-logo.svg" alt="Colmar Academy Logo">
+                <span class="logoColmar">colmar</span><span class="logoAcademy">academy</span>
+              </div>
+            </a>
+          </div>
+          <ul class="hidden-sm nav navbar-nav navbar-right text-capitalize">
+            <li>on campus</li>
+            <li>on-line</li>
+            <li>for companies</li>
+            <li>sign in</li>
+          </ul>
+
+        </div>
+
+        <!-- Mobile navbar -->
+        <div class="navbar-toggle container-fluid">
+          <div class="row">
+            <div class="col-xs-3 col-sm-3">
+              <img class="img-responsive center-block" src="./images/ic-logo.svg" alt="Colmar Academy Logo">
+            </div>
+            <div class="col-xs-3 col-sm-3">
+              <img class="img-responsive center-block" src="./images/ic-on-campus.svg" alt="On Campus">
+            </div>
+            <div class="col-xs-3 col-sm-3">
+              <img class="img-responsive center-block" src="./images/ic-online.svg" alt="On-Line">
+            </div>
+            <div class="col-xs-3 col-sm-3">
+              <img class="img-responsive center-block " src="./images/ic-login.svg" alt="Login">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Section 1: two verticals, 60% + 40% -->
+    <section class="container bgDark" id="section1">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+            <img class="img-responsive" src="./images/banner.jpg" alt="Students reading">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+              <div class="verticalAlign">
+                <h1>Learn something new every day</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <span class="btn btn-block bgDarker lead">Start here</span>
+              </div>
+          </div>
+
+      </div>
+
+    </section>
+	
+	
+    <!-- Section 2: two verticals, 60% + 40% -->
+    <section class="container" id="section2">
+      <div class="row">
+          <!-- Left column -->
+          <div class="visible-lg visible-md col-md-7 col-lg-7">
+            <!-- Image goes here -->
+            <img class="img-responsive" src="./images/information-main.jpg" alt="Information">
+            <h2 class="">It doesn&apos;t hurt to keep practicing</h2>
+            <p class="lead">&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&rdquo;</p>
+            <p class="quote">Emanuel, Senior Strategist at Hiring.com</p>
+          </div>
+
+          <div class="cards col-xs-12 col-sm-12 col-md-5 col-lg-5">
+
+            <div class="row horizCardPad">
+              <img class="visible-lg visible-md img-responsive col-md-5 col-lg-5" src="./images/information-orientation.jpg" alt="Orientation">
+              <img class="visible-sm visible-xs img-responsive col-xs-12 col-sm-12" src="./images/information-orientation-mobile.jpg" alt="Orientation">
+              <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                <h4>Orientation date</h4>
+                <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
+                <a href="#ReadMore">Read more</a>
+              </div>
+            </div>
+
+
+            <!-- Small orizontal card format -->
+            <div class="row horizCardPad">
+              <img class="visible-lg visible-md img-responsive col-md-5 col-lg-5" src="./images/information-campus.jpg" alt="Campuses">
+              <img class="visible-sm visible-xs img-responsive col-xs-12 col-sm-12" src="./images/information-campus-mobile.jpg" alt="Campuses">
+              <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                <h4>Our campus</h4>
+                <p>Find which campus is close by you</p>
+                <a href="#ReadMore">Read more</a>
+              </div>
+            </div>
+
+
+            <!-- Small orizontal card format -->
+            <div class="row horizCardPad bgDark" id="guestLecture">
+              <img class="visible-lg visible-md img-responsive col-md-5 col-lg-5" src="./images/information-guest-lecture.jpg" alt="Guest">
+              <img class="visible-sm visible-xs img-responsive col-xs-12 col-sm-12" src="./images/information-guest-lecture-mobile.jpg" alt="Guest">
+              <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                <h4>Our guest lecture</h4>
+                <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                <a href="#ReadMore">Read more</a>
+              </div>
+            </div>
+
+
+          </div>
+
+      </div>
+    </section>
+
+
+    <!-- Section 3: courses cards -->
+    <section class="container bgLight" id="section3">
+        <!-- Setion title -->
+        <div class="row">
+          <h2 class="col-sm-12 col-xs-12 text-center">Start learning</h2>
+
+          <!-- Section content, will wrap around in three columns -->
+          <div class="visible-lg visible-md row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="thumbnail">
+                <img class="img-responsive" src="./images/course-software.jpg" alt="Software Engineering">
+                <div class="caption">
+                  <h4>Software engineering</h4>
+                  <h5>COURSES</h5>
+                  <p>Web Development, Mobile Development, iOT, APIs</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="thumbnail">
+                <img class="img-responsive" src="./images/course-computer-art.jpg" alt="Computer art">
+                <div class="caption">
+                  <h4>Computer art</h4>
+                  <h5>COURSES</h5>
+                  <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="thumbnail">
+                <img class="img-responsive" src="./images/course-design.jpg" alt="Design">
+                <div class="caption">
+                  <h4>Design</h4>
+                  <h5>COURSES</h5>
+                  <p>User Experience Design, User Research, Visual Design</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="visible-lg visible-md row">
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="thumbnail">
+                <img class="img-responsive" src="./images/course-data.jpg" alt="Data">
+                <div class="caption">
+                  <h4>Data</h4>
+                  <h5>COURSES</h5>
+                  <p>Data Science, Big Data, SQL, Data Visualization</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="thumbnail">
+                <img class="img-responsive" src="./images/course-business.jpg" alt="Business">
+                <div class="caption">
+                  <h4>Business</h4>
+                  <h5>COURSES</h5>
+                  <p>Product Development, Business Development, Startup</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="thumbnail">
+                <img class="img-responsive" src="./images/course-marketing.jpg" alt="Marketing">
+                <div class="caption">
+                  <h4>Marketing</h4>
+                  <h5>COURSES</h5>
+                  <p>Analytics, Content Marketing, Mobile Marketing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Alternate content for mobile site -->
+        <div class="visible-sm visible-xs row">
+          <div class="col-xs-12 col-sm-12 bgDark mobileViewSection3Margin">
+            <h3>Software engineering</h3>
+          </div>
+          <div class="col-xs-12 col-sm-12 bgDark mobileViewSection3Margin">
+            <h3>Computer Art</h3>
+          </div>
+          <div class="col-xs-12 col-sm-12 bgDark mobileViewSection3Margin">
+            <h3>Design</h3>
+          </div>
+          <div class="col-xs-12 col-sm-12 bgDark mobileViewSection3Margin">
+            <h3>Data</h3>
+          </div>
+          <div class="col-xs-12 col-sm-12 bgDark mobileViewSection3Margin">
+            <h3>Business</h3>
+          </div>
+          <div class="col-xs-12 col-sm-12 bgDark mobileViewSection3Margin">
+            <h3>Marketing</h3>
+          </div>
+        </div>
+
+    </section>
+
+    <section class="container">
+        <!-- Setion title -->
+        <div class="row">
+          <h2 class="col-sm-12 col-xs-12 text-center text-center">Thesis exhibit</h2>
+
+
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+              <!-- Video goes here -->
+              <video class="img-responsive" src="./videos/thesis.mp4" controls="play" loop muted>
+                Sorry, your browser doesn't support embedded videos, but don't worry, you can <a href="./videos/thesis.mp4">download it</a> and watch it with your favorite video player!
+              </video>
+              <h4 class="visible-lg visible-md">Reimagine urban</h4>
+              <p class="visible-lg visible-md lead">&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&rdquo;</p>
+            </div>
+      
+            <div class="visible-lg visible-md col-md-5 col-lg-5">
+        
+              <div class="row horizCardPad bgDark">
+                <img class="img-responsive col-xs-12 col-sm-12 col-md-5 col-lg-5" src="./images/thesis-fisma.jpg" alt="Designer at work">
+
+           
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                  <h4>Fisma: Desgin and</h4>
+                  <p>Designer showcase of new prototype product</p>
+                </div>
+              </div>
+
+
+              <div class="row horizCardPad">
+                <img class="img-responsive col-xs-12 col-sm-12 col-md-5 col-lg-5" src="./images/thesis-now-and-then.jpg" alt="New your skyline">
+
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                  <h4>Now and then</h4>
+                  <p>Research study about New York</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+       
+
+    </section>
+    <!-- Footer -->
+    <footer class="container">
+
+          <small class="col-xs-12 col-sm-12 col-md-6 col-lg-6">&copy; 2022 Colmar Academy. All rights reserved.</small>
+          <div class="visible-lg visible-md col-md-6 col-lg-6 text-capitalize text-right">
+			  <small class="">About</small>
+			  <small class="">terms</small>
+			<small class="">privacy</small>
+          </div>
+
+
+    </footer>
+
+	
+</body>
+</html>
+

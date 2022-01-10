@@ -1,0 +1,191 @@
+/* CSS Document */
+
+/*This is the master style*/
+html {
+  /*font-family: helvetica*/
+  font-size: 16px;
+  font-weight: lighter;
+  color: #4A4A4A;
+}
+
+/*Background colors*/
+.bgDarker {
+  background-color: #4A4A4A;
+}
+.bgDark {
+  background-color: #D8D8D8;
+}
+.bgLight {
+  background-color: #EAEBEC;
+}
+.bgWhite {
+  background-color: #FFFFFF;
+}
+
+/* Fix navbar aspect */
+.navbar {
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+.navbar-toggle {
+  float: none;
+  border: 0;
+  margin: 0;
+}
+
+/*Fix navbar height and text vertical alignment for
+larger displays*/
+@media (min-width: 768px) {
+  .navbar {
+    height: 4rem;
+    line-height: 4rem;
+    white-space: nowrap;
+  }
+  .navbar-nav li {
+    margin-right: 2rem;
+  }
+  .navbar-nav li:last-child {
+    margin-right: 1rem;
+  }
+}
+
+#header {
+  padding:0;
+  border: 0;
+  border-radius: 0;
+}
+
+#logo {
+  font-size: 1.8rem;
+}
+.logoColmar {
+  font-weight: 600;
+  color: #4A4A4A;
+}
+.logoAcademy {
+  font-weight: 200;
+  color: #9B9B9B;
+}
+
+
+.verticalAlign {
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .verticalAlign {
+    height: 384px;
+  }
+}
+
+@media (max-width: 992px) {
+  .verticalAlign {
+    height: auto;
+  }
+}
+
+.container {
+  padding: 1.8rem;
+}
+
+.thumbnail {
+  border: 0;
+  padding: 0;
+}
+
+.thumbnail .caption {
+  min-height: 150px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.thumbnail .caption p {
+  font-weight: 300;
+}
+
+.horizCardPad {
+  padding: 1rem;
+}
+.cards .row:first-child {
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 900;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  margin: 1.5rem;
+  letter-spacing: 0.12rem;
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-weight: lighter;
+  letter-spacing: 0.08rem;
+}
+
+a {
+  letter-spacing: 0.08rem;
+  color: #2070D9;
+}
+
+.lead {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+}
+
+.quote {
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+#section1 p {
+  font-weight: normal;
+}
+
+#section1 .btn {
+  /*font-weight: lighter;*/
+  color: #FFFFFF;
+  letter-spacing: 0.1rem;
+
+}
+
+#section1 .btn:hover {
+  /*font-weight: lighter;*/
+  background-color: #4ABE4A;
+}
+
+#section2 h2 {
+  margin-top: 1.5rem;
+}
+
+.mobileViewSection3Margin {
+  margin: 0.2rem;
+}
+
+@media (max-width: 992px) {
+  #section3,
+  #guestLecture {
+    background-color: #FFFFFF;
+  }
+}
+
+@media (max-width: 992px) {
+  footer {
+    text-align: center;
+  }
+}
